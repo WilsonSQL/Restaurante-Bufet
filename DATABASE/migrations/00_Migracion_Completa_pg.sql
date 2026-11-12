@@ -390,7 +390,7 @@ INSERT INTO Empleados (nombre, apellido, telefono, direccion, fechaContratacion,
 ('Oscar David',    'Lanzas Flores',   '8805-9900', 'Villa Libertad, Managua',    '2025-01-20', 10000.00, 5, TRUE);
 
 /* ---------- 4. Usuarios ---------- */
--- >> Contraseñas de prueba (Admin#2026, Caja#2026, Mesa#2026, Cocina#2026, Bodega#2026) con SHA-256 sin sal.
+-- >> Hashes de usuarios de prueba (SHA-256 sin sal). Las contraseñas no se documentan aquí: se entregan por canal privado.
 -- >> En la aplicación real conviene usar un hash con sal (bcrypt, PBKDF2 o Argon2).
 INSERT INTO Usuarios (nombreUsuario, contrasenaHash, idEmpleado, rol, estado) VALUES
 ('rsalazar', '51CA46A9B8082D430E949F9E305E497982B124FF47D33BC1AAE779E2F4358430', 1, 'Administrador', TRUE),
