@@ -1,0 +1,19 @@
+# Secrets / environment
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.*.local.json
+
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
